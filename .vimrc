@@ -1,3 +1,5 @@
+set textwidth=0
+set wrapmargin=0
 map :q :q!
 " ========== Vim Basic Settings ============="
 set visualbell t_vb=    " turn off error beep/flash
@@ -83,7 +85,7 @@ nnoremap <leader>d :tprev<cr>
 nnoremap <leader>tj :tjump<cr>
 " ========================================================================================
 " Make Vim to handle long lines nicely.
-set wrap
+"set wrap
 set textwidth=0
 set wrapmargin=0
 "set colorcolumn=+1
