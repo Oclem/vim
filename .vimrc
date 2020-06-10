@@ -84,7 +84,8 @@ nnoremap <leader>tj :tjump<cr>
 " ========================================================================================
 " Make Vim to handle long lines nicely.
 set wrap
-set textwidth=79
+set textwidth=0
+set wrapmargin=0
 "set colorcolumn=+1
 "set formatoptions=qrn1
 "set colorcolumn=79
